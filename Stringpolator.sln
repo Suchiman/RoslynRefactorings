@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24606.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stringpolator", "Stringpolator\Stringpolator\Stringpolator.csproj", "{F80F4191-3F8B-496B-B68C-E035690A10F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stringpolator.Vsix", "Stringpolator\Stringpolator.Vsix\Stringpolator.Vsix.csproj", "{9A85ED17-8FBF-478A-8095-9B1FB4566226}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F80F4191-3F8B-496B-B68C-E035690A10F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80F4191-3F8B-496B-B68C-E035690A10F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80F4191-3F8B-496B-B68C-E035690A10F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80F4191-3F8B-496B-B68C-E035690A10F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A85ED17-8FBF-478A-8095-9B1FB4566226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A85ED17-8FBF-478A-8095-9B1FB4566226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A85ED17-8FBF-478A-8095-9B1FB4566226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A85ED17-8FBF-478A-8095-9B1FB4566226}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
