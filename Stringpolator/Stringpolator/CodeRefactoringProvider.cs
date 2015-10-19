@@ -50,7 +50,7 @@ namespace Stringpolator
                 if (literal?.IsKind(SyntaxKind.StringLiteralExpression) ?? false)
                 {
                     //strings needs to be collapsed, otherwise VS will insert additional whitespaces
-                    previousString += literal.Token.ValueText;
+                    previousString += literal.Token.Text.Substring(1, literal.Token.Text.Length - 2);
                 }
                 else
                 {
